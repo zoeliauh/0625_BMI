@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         bmiNavigationBar.topItem!.prompt = "calulator"
         bmiNavigationBar.topItem!.rightBarButtonItem = UIBarButtonItem(systemItem: .add)
 */
-    ddd
+oooooo
     }
 
 }
