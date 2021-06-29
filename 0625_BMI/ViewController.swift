@@ -8,12 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var bmiNavigationBar: UINavigationBar!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        /*
+        if let item = bmiNavigationBar.topItem {
+            print("display \(item)")
+        }else {
+            print("error")
+        }
+*/
+        /*
+        bmiNavigationBar.topItem!.title = "BMI calulator"
+        bmiNavigationBar.topItem!.prompt = "calulator"
+        bmiNavigationBar.topItem!.rightBarButtonItem = UIBarButtonItem(systemItem: .add)
+*/
+    
     }
 
-
 }
-
