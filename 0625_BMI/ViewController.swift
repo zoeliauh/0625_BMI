@@ -36,13 +36,13 @@ class ViewController: UIViewController {
         result.text = ("your BMI is \(bmiString) \n")
         switch bmi {
         case 0..<18.5:
-            result.text += "\n too light\n"
+            result.text += "\n treat yourself better \n"
         case 18.5..<24:
-            result.text += "\n normal\n"
+            result.text += "\n healthy human beings \n"
         case 24..<27:
-            result.text += "\n too heavy\n"
+            result.text += "\n do something exercise \n"
         case 27..<30:
-            result.text += "\n over weight\n"
+            result.text += "\n shake your body, have fun \n"
         default:
             result.text += "\n I am worry about you"
         }
